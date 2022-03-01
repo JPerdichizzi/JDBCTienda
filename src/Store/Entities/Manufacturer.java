@@ -10,7 +10,7 @@ package Store.Entities;
  * @author joaqu
  */
 public class Manufacturer {
-    
+
     private int id;
     private String name;
 
@@ -42,6 +42,5 @@ public class Manufacturer {
     public String toString() {
         return "Manufacturer{" + "id=" + id + ", name=" + name + '}';
     }
-    
-    
+
 }

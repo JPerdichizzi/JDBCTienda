@@ -10,16 +10,16 @@ package Store.Entities;
  * @author joaqu
  */
 public class Product {
-    
+
     private int ProductId;
     private String name;
-    private double price;
+    private Double price;
     private int ManufacturerID;
 
     public Product() {
     }
 
-    public Product(int ProductId, String name, double price, int ManufacturerID) {
+    public Product(int ProductId, String name, Double price, int ManufacturerID) {
         this.ProductId = ProductId;
         this.name = name;
         this.price = price;
@@ -42,11 +42,11 @@ public class Product {
         this.name = name;
     }
 
-    public double getPrice() {
+    public Double getPrice() {
         return price;
     }
 
-    public void setPrice(double price) {
+    public void setPrice(Double price) {
         this.price = price;
     }
 
@@ -62,7 +62,5 @@ public class Product {
     public String toString() {
         return "Product{" + "ProductId=" + ProductId + ", name=" + name + ", price=" + price + ", ManufacturerID=" + ManufacturerID + '}';
     }
-    
-    
-    
+
 }

@@ -5,17 +5,31 @@
  */
 package Main;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 /**
  *
  * @author joaqu
  */
 public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+   
+
+    public static void main(String[] args) throws Exception {
+        
+         MainService mainSS = new MainService();
+         
+        try {
+            // TODO code application logic here
+
+            mainSS.mainService();
+            
+        } catch (Exception e) {
+            throw e;
+        }
     }
     
+    
+
 }
